@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/ctf/metalcombine002"
+	"$surfaceprop" "metal"
+}

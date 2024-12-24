@@ -1,0 +1,61 @@
+// Lethal Stigma
+// ADDED: Health kit
+
+WeaponData
+{
+	"printname"			"HEALTH KIT"
+
+	"viewmodel"		"models/weapons/v_healthkit.mdl"
+	"playermodel"		"models/weapons/w_healthkit.mdl"
+	"anim_prefix"		"gauss"
+	"bucket"			"0"
+	"bucket_position"		"4"
+
+	"clip_size"			"-1"
+	"clip2_size"			"-1"
+	"default_clip"		"1"
+	"default_clip2"		"-1"
+
+	"primary_ammo"		"None"
+	"secondary_ammo"		"None"
+
+	"weight"			"10"
+	"item_flags"			"18"
+	"damage"			"0"
+
+	SoundData
+	{
+	}
+
+	TextureData
+	{
+		"weapon"
+		{
+			"font"		"WeaponIcons"
+			"character"		"+"
+		}
+		"weapon_s"
+		{	
+			"font"		"WeaponIconsSelected"
+			"character"		"+"
+		}
+		"ammo"
+		{
+			"font"		"WeaponIcons"
+			"character"		"+"
+		}
+		"crosshair"
+		{
+			"font"		"Crosshairs"
+			"character"		"+"
+		}
+		"autoaim"
+		{
+			"file"		"sprites/crosshairs"
+			"x"		"48"
+			"y"		"72"
+			"width"		"24"
+			"height"		"24"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "highrise/blackglass"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+}

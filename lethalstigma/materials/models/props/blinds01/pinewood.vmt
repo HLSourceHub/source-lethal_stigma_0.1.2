@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "wanha/pinewood"
+	"$bumpmap" "wanha/pinewood_bump"
+	"$surfaceprop" "wood_plank"
+}

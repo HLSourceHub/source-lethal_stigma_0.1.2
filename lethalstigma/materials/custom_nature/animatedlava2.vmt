@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "custom_nature/animatedlava2"
+	"Proxies"
+	{
+
+
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 15
+		}
+
+	}
+	
+}

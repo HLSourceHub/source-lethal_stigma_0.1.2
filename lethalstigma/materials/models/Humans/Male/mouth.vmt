@@ -1,0 +1,11 @@
+// Lethal Stigma
+// FIXED: Shiny mouth/teeth when rendering
+
+//"Teeth"
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Humans/Male/mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

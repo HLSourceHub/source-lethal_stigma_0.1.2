@@ -1,0 +1,68 @@
+// Lethal Stigma
+// ADDED: Alyxgun
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"ALYX GUN"
+	"viewmodel"			"models/weapons/v_stigma_alyxgun.mdl"
+	"playermodel"		"models/weapons/W_Alyx_Gun.mdl"
+	"anim_prefix"		"pistol"
+	"bucket"			"2"
+	"bucket_position"	"2"
+
+	"clip_size"			"30"
+	"primary_ammo"		"ALYXGUN"
+	"secondary_ammo"	"None"
+
+	"weight"			"2"
+	"item_flags"			"0"
+	"damage"			"7"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"reload"		"Weapon_Pistol.Reload"
+		"reload_npc"	"Weapon_Pistol.NPC_Reload"
+		"empty"			"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_Alyxgun.Fire"
+		"single_shot_npc"	"Weapon_Pistol.NPC_Single"
+		"special1"		"Weapon_Pistol.Special1"
+		"special2"		"Weapon_Pistol.Special2"
+		"burst"			"Weapon_Pistol.Burst"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"a"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"a"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/Weapons/V_pistol/TS_incorp_handgun"
+	"$bumpmap" "Models/Weapons/V_pistol/TS_incorp_handgun_normal"
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 8 6]"
+
+	// Lethal Stigma
+	// FIXED: Players being able to see through view models of some weapons
+	"$nocull" "1"
+}
